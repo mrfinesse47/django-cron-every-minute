@@ -17,4 +17,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crontest.settings')
 
 application = get_wsgi_application()
 
-start_jobs()
+start_jobs()#load the cron job here or else it registers twice
