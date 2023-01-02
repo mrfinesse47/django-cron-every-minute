@@ -6,7 +6,7 @@ def start_jobs():
     
     scheduler = BackgroundScheduler()
     
-    #Set cron to runs every 20 min.
+    #Set cron to runs every 1 min.
     cron_job = {'month': '*', 'day': '*', 'hour': '*', 'minute':'*/1'}
     
     #Add our task to scheduler.
